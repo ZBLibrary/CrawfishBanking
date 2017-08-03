@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LeftListViewController" customModule="CrawfishBanking" customModuleProvider="target">
+            <connections>
+                <outlet property="btn1" destination="LRE-yk-7xR" id="Zwc-Zp-NOC"/>
+                <outlet property="btn2" destination="r8e-w0-weh" id="c1C-Is-NIH"/>
+                <outlet property="btn3" destination="aSv-zk-FwD" id="Pbu-UN-EjA"/>
+                <outlet property="btn4" destination="jFK-4P-rSk" id="hha-dy-kXW"/>
+                <outlet property="btn5" destination="Sd0-VM-oZt" id="gyw-hp-OJb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dmf-6f-t6w">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <button opaque="NO" tag="666" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LRE-yk-7xR">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="申请表">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="申请表">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="L6l-z3-GUR"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="777" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r8e-w0-weh">
+                            <rect key="frame" x="0.0" y="100" width="375" height="100"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="审核">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="申请">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="xtZ-qQ-Pjp"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="888" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSv-zk-FwD">
+                            <rect key="frame" x="0.0" y="200" width="375" height="100"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="合同">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="合同">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="4kC-Et-aXJ"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="999" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFK-4P-rSk">
+                            <rect key="frame" x="0.0" y="300" width="375" height="100"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="放款">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="放款">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="GDc-Uc-gHm"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="555" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sd0-VM-oZt">
+                            <rect key="frame" x="0.0" y="400" width="375" height="100"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <state key="normal" title="还款">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="disabled" title="还款">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAction:" destination="-1" eventType="touchUpInside" id="wmr-Sx-REA"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="aSv-zk-FwD" firstAttribute="leading" secondItem="Dmf-6f-t6w" secondAttribute="leading" id="2N8-BK-JdA"/>
+                        <constraint firstItem="LRE-yk-7xR" firstAttribute="height" secondItem="Dmf-6f-t6w" secondAttribute="height" multiplier="0.15" id="7XK-FY-Z4q"/>
+                        <constraint firstItem="r8e-w0-weh" firstAttribute="top" secondItem="LRE-yk-7xR" secondAttribute="bottom" id="8aR-6x-OAm"/>
+                        <constraint firstItem="r8e-w0-weh" firstAttribute="leading" secondItem="Dmf-6f-t6w" secondAttribute="leading" id="Brh-Gp-DeM"/>
+                        <constraint firstItem="Sd0-VM-oZt" firstAttribute="top" secondItem="jFK-4P-rSk" secondAttribute="bottom" id="Bz8-a9-Lb6"/>
+                        <constraint firstItem="jFK-4P-rSk" firstAttribute="leading" secondItem="Dmf-6f-t6w" secondAttribute="leading" id="CSA-Np-UTF"/>
+                        <constraint firstAttribute="trailing" secondItem="aSv-zk-FwD" secondAttribute="trailing" id="DgV-Rg-QBR"/>
+                        <constraint firstAttribute="trailing" secondItem="r8e-w0-weh" secondAttribute="trailing" id="M90-4j-eUC"/>
+                        <constraint firstItem="jFK-4P-rSk" firstAttribute="height" secondItem="aSv-zk-FwD" secondAttribute="height" id="NnH-1b-HOi"/>
+                        <constraint firstAttribute="trailing" secondItem="jFK-4P-rSk" secondAttribute="trailing" id="Psg-Vv-scZ"/>
+                        <constraint firstItem="aSv-zk-FwD" firstAttribute="height" secondItem="r8e-w0-weh" secondAttribute="height" id="QzR-9f-55y"/>
+                        <constraint firstItem="r8e-w0-weh" firstAttribute="height" secondItem="LRE-yk-7xR" secondAttribute="height" id="Rbv-e9-r9Q"/>
+                        <constraint firstAttribute="trailing" secondItem="LRE-yk-7xR" secondAttribute="trailing" id="U87-Ua-c3G"/>
+                        <constraint firstAttribute="trailing" secondItem="Sd0-VM-oZt" secondAttribute="trailing" id="V27-2Z-AMa"/>
+                        <constraint firstItem="Sd0-VM-oZt" firstAttribute="height" secondItem="jFK-4P-rSk" secondAttribute="height" id="VrY-LM-i5F"/>
+                        <constraint firstItem="Sd0-VM-oZt" firstAttribute="leading" secondItem="Dmf-6f-t6w" secondAttribute="leading" id="jEx-PB-jdr"/>
+                        <constraint firstItem="LRE-yk-7xR" firstAttribute="top" secondItem="Dmf-6f-t6w" secondAttribute="top" id="qC2-TR-Fkx"/>
+                        <constraint firstItem="jFK-4P-rSk" firstAttribute="top" secondItem="aSv-zk-FwD" secondAttribute="bottom" id="rJJ-RM-NlI"/>
+                        <constraint firstItem="aSv-zk-FwD" firstAttribute="top" secondItem="r8e-w0-weh" secondAttribute="bottom" id="uFY-51-WOe"/>
+                        <constraint firstItem="LRE-yk-7xR" firstAttribute="leading" secondItem="Dmf-6f-t6w" secondAttribute="leading" id="yoP-Va-e6o"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Dmf-6f-t6w" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Csl-LP-aHj"/>
+                <constraint firstItem="Dmf-6f-t6w" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Tuc-D7-zow"/>
+                <constraint firstAttribute="trailing" secondItem="Dmf-6f-t6w" secondAttribute="trailing" id="v9X-bQ-qHA"/>
+                <constraint firstAttribute="bottom" secondItem="Dmf-6f-t6w" secondAttribute="bottom" id="x7e-ne-L6f"/>
+            </constraints>
+            <point key="canvasLocation" x="-36" y="-157"/>
+        </view>
+    </objects>
+</document>

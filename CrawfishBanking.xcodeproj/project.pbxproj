@@ -1,0 +1,1217 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1E410849879F7A385EC054 /* Pods_CrawfishBanking_CrawfishBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DD15DC6DE81D70F341954B7 /* Pods_CrawfishBanking_CrawfishBankingTests.framework */; };
+		1E9155764285B5511B32B5F3 /* Pods_CrawfishBanking_Tests_CrawfishBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C47D954458E6F84656CF4D /* Pods_CrawfishBanking_Tests_CrawfishBankingUITests.framework */; };
+		365030211E07D1E950BB55E7 /* Pods_CrawfishBanking_Tests_CrawfishBankingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EEE78117CE026E3A47F81C2 /* Pods_CrawfishBanking_Tests_CrawfishBankingTests.framework */; };
+		5CCF43A5E6C87B7A065DA525 /* Pods_CrawfishBanking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8783CA4F70867BFE71BE4E8 /* Pods_CrawfishBanking.framework */; };
+		681C7B9A1EBB05A7005D8ACD /* GYPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C7B991EBB05A7005D8ACD /* GYPageTitleView.swift */; };
+		681C7B9C1EBB05C0005D8ACD /* GYPageContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C7B9B1EBB05C0005D8ACD /* GYPageContainerView.swift */; };
+		681C7B9E1EBB2713005D8ACD /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 681C7B9D1EBB2713005D8ACD /* FilesViewController.swift */; };
+		6821CD031EB1914100E160D6 /* FillCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821CD021EB1914100E160D6 /* FillCustomerViewController.swift */; };
+		6821CD061EB1B41300E160D6 /* FillCustomerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821CD041EB1B41300E160D6 /* FillCustomerCell.swift */; };
+		6821CD071EB1B41300E160D6 /* FillCustomerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6821CD051EB1B41300E160D6 /* FillCustomerCell.xib */; };
+		6821CD091EB1BC6D00E160D6 /* FillCustomerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821CD081EB1BC6D00E160D6 /* FillCustomerModel.swift */; };
+		6821CD0B1EB1C3F400E160D6 /* FillHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6821CD0A1EB1C3F400E160D6 /* FillHeadView.swift */; };
+		6821CD0D1EB1C40F00E160D6 /* FillHeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6821CD0C1EB1C40F00E160D6 /* FillHeadView.xib */; };
+		685ACC4F1EAEE99900BB2117 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC4E1EAEE99900BB2117 /* UIColor+Extension.swift */; };
+		685ACC511EAEEF1F00BB2117 /* UIView+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC501EAEEF1F00BB2117 /* UIView+GYExtension.swift */; };
+		685ACC541EAF12BD00BB2117 /* SubmitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC531EAF12BD00BB2117 /* SubmitViewController.swift */; };
+		685ACC561EAF13E200BB2117 /* GYBaseBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC551EAF13E200BB2117 /* GYBaseBackViewController.swift */; };
+		685ACC581EAF1F8900BB2117 /* UIBarButtonItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC571EAF1F8900BB2117 /* UIBarButtonItem+Extension.swift */; };
+		685ACC5B1EAF218600BB2117 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC5A1EAF218600BB2117 /* LoginViewController.swift */; };
+		685ACC5E1EAF404F00BB2117 /* GYTimerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC5D1EAF404F00BB2117 /* GYTimerButton.swift */; };
+		685ACC601EAF4AC600BB2117 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685ACC5F1EAF4AC600BB2117 /* LoginView.swift */; };
+		6860BAC71EB972120037AAE4 /* LeftListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860BAC51EB972120037AAE4 /* LeftListViewController.swift */; };
+		6860BAC81EB972120037AAE4 /* LeftListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6860BAC61EB972120037AAE4 /* LeftListViewController.xib */; };
+		6860BACA1EB9B4BF0037AAE4 /* RequestVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860BAC91EB9B4BF0037AAE4 /* RequestVc.swift */; };
+		6860BACC1EB9B4FD0037AAE4 /* ReviewVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860BACB1EB9B4FD0037AAE4 /* ReviewVc.swift */; };
+		6860BACE1EB9B52A0037AAE4 /* ContractVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860BACD1EB9B52A0037AAE4 /* ContractVc.swift */; };
+		6860BAD01EB9B54F0037AAE4 /* LoansVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860BACF1EB9B54F0037AAE4 /* LoansVc.swift */; };
+		6860BAD21EB9BAD50037AAE4 /* RepaymentVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6860BAD11EB9BAD50037AAE4 /* RepaymentVc.swift */; };
+		686BAC921EB82F5200603049 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BAC911EB82F5200603049 /* ConfirmViewController.swift */; };
+		686BAC941EB85BA500603049 /* ConfirmBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BAC931EB85BA500603049 /* ConfirmBtnView.swift */; };
+		686BAC971EB866D700603049 /* FinancingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 686BAC961EB866D700603049 /* FinancingViewController.swift */; };
+		687146431EB062A8001F6F6F /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687146421EB062A8001F6F6F /* Tools.swift */; };
+		687146461EB07C5A001F6F6F /* LoginNoneInfoVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687146441EB07C5A001F6F6F /* LoginNoneInfoVc.swift */; };
+		687146471EB07C5A001F6F6F /* LoginNoneInfoVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687146451EB07C5A001F6F6F /* LoginNoneInfoVc.xib */; };
+		687146511EB09FEC001F6F6F /* StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687146501EB09FEC001F6F6F /* StateView.swift */; };
+		687146531EB09FFD001F6F6F /* StateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687146521EB09FFD001F6F6F /* StateView.xib */; };
+		687146551EB0B451001F6F6F /* StateSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687146541EB0B451001F6F6F /* StateSecondView.swift */; };
+		687146571EB0B465001F6F6F /* StateSecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 687146561EB0B465001F6F6F /* StateSecondView.xib */; };
+		6887F6ED1EADF84800057021 /* GYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887F6EC1EADF84800057021 /* GYNavigationController.swift */; };
+		6887F6F21EADFC7900057021 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887F6F11EADFC7900057021 /* HomeViewController.swift */; };
+		6887F6F61EADFCB500057021 /* HomeBootomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887F6F51EADFCB500057021 /* HomeBootomView.swift */; };
+		6887F6F81EADFD4B00057021 /* GYBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887F6F71EADFD4B00057021 /* GYBanner.swift */; };
+		6887F6FF1EAE000A00057021 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6F91EAE000A00057021 /* 1.jpg */; };
+		6887F7001EAE000A00057021 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6FA1EAE000A00057021 /* 2.jpg */; };
+		6887F7011EAE000A00057021 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6FB1EAE000A00057021 /* 3.jpg */; };
+		6887F7021EAE000A00057021 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6FC1EAE000A00057021 /* 4.jpg */; };
+		6887F7031EAE000A00057021 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6FD1EAE000A00057021 /* 5.jpg */; };
+		6887F7041EAE000A00057021 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6FE1EAE000A00057021 /* 6.jpg */; };
+		6887F7071EAE03E000057021 /* GYConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6887F7061EAE03E000057021 /* GYConst.swift */; };
+		688AE0281EC03DD3004DA121 /* FilesViewControllerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688AE0271EC03DD3004DA121 /* FilesViewControllerSpec.swift */; };
+		688AE02E1EC06835004DA121 /* LoginVcSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688AE02D1EC06835004DA121 /* LoginVcSpec.swift */; };
+		68FAE9FF1EB332E900B2058D /* GYIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAE9FE1EB332E900B2058D /* GYIndicatorView.swift */; };
+		68FAEA011EB33F6D00B2058D /* GYBounceSportAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68FAEA001EB33F6D00B2058D /* GYBounceSportAnimation.swift */; };
+		B7E565BC1EA4B6D300EF3C26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E565BB1EA4B6D300EF3C26 /* AppDelegate.swift */; };
+		B7E565C11EA4B6D300EF3C26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E565BF1EA4B6D300EF3C26 /* Main.storyboard */; };
+		B7E565C31EA4B6D400EF3C26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7E565C21EA4B6D400EF3C26 /* Assets.xcassets */; };
+		B7E565C61EA4B6D400EF3C26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7E565C41EA4B6D400EF3C26 /* LaunchScreen.storyboard */; };
+		B7E565D11EA4B6D400EF3C26 /* CrawfishBankingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E565D01EA4B6D400EF3C26 /* CrawfishBankingTests.swift */; };
+		B7E565DC1EA4B6D400EF3C26 /* CrawfishBankingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E565DB1EA4B6D400EF3C26 /* CrawfishBankingUITests.swift */; };
+		B7E565F01EA4BAB700EF3C26 /* GYServiceApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E565EE1EA4BAB700EF3C26 /* GYServiceApi.swift */; };
+		B7E565F11EA4BAB700EF3C26 /* GYRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E565EF1EA4BAB700EF3C26 /* GYRouter.swift */; };
+		B7E565F41EA4BB5100EF3C26 /* GYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E565F31EA4BB5100EF3C26 /* GYBaseViewController.swift */; };
+		B7EEABB21EA614AC0058BBFF /* GYNetWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEABB11EA614AC0058BBFF /* GYNetWorking.swift */; };
+		B7EEABB41EA614B50058BBFF /* GYErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEABB31EA614B50058BBFF /* GYErrorCode.swift */; };
+		B7EEABB81EA765360058BBFF /* UIButton+GYExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EEABB71EA765360058BBFF /* UIButton+GYExtension.swift */; };
+		F13DCB09527E6E913C1BD586 /* Pods_CrawfishBanking_CrawfishBankingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F853E6A76B9A21FC0BB88D /* Pods_CrawfishBanking_CrawfishBankingUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7E565CD1EA4B6D400EF3C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E565B01EA4B6D300EF3C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E565B71EA4B6D300EF3C26;
+			remoteInfo = CrawfishBanking;
+		};
+		B7E565D81EA4B6D400EF3C26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7E565B01EA4B6D300EF3C26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E565B71EA4B6D300EF3C26;
+			remoteInfo = CrawfishBanking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		116D25F176DDA27B88DC1649 /* Pods-CrawfishBanking-Tests-CrawfishBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-Tests-CrawfishBankingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-Tests-CrawfishBankingTests/Pods-CrawfishBanking-Tests-CrawfishBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1DF619519CBE1B924A0AB724 /* Pods-CrawfishBanking-CrawfishBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-CrawfishBankingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingTests/Pods-CrawfishBanking-CrawfishBankingTests.release.xcconfig"; sourceTree = "<group>"; };
+		2DD15DC6DE81D70F341954B7 /* Pods_CrawfishBanking_CrawfishBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking_CrawfishBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448C1D08039B73AD24643406 /* Pods-CrawfishBanking-Tests-CrawfishBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-Tests-CrawfishBankingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-Tests-CrawfishBankingUITests/Pods-CrawfishBanking-Tests-CrawfishBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B3F6D674F4EF21595FAAEFC /* Pods-CrawfishBanking-CrawfishBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-CrawfishBankingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingUITests/Pods-CrawfishBanking-CrawfishBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EEE78117CE026E3A47F81C2 /* Pods_CrawfishBanking_Tests_CrawfishBankingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking_Tests_CrawfishBankingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		681C7B991EBB05A7005D8ACD /* GYPageTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYPageTitleView.swift; sourceTree = "<group>"; };
+		681C7B9B1EBB05C0005D8ACD /* GYPageContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYPageContainerView.swift; sourceTree = "<group>"; };
+		681C7B9D1EBB2713005D8ACD /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		6821CD021EB1914100E160D6 /* FillCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCustomerViewController.swift; sourceTree = "<group>"; };
+		6821CD041EB1B41300E160D6 /* FillCustomerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCustomerCell.swift; sourceTree = "<group>"; };
+		6821CD051EB1B41300E160D6 /* FillCustomerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillCustomerCell.xib; sourceTree = "<group>"; };
+		6821CD081EB1BC6D00E160D6 /* FillCustomerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillCustomerModel.swift; sourceTree = "<group>"; };
+		6821CD0A1EB1C3F400E160D6 /* FillHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillHeadView.swift; sourceTree = "<group>"; };
+		6821CD0C1EB1C40F00E160D6 /* FillHeadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FillHeadView.xib; sourceTree = "<group>"; };
+		685ACC4E1EAEE99900BB2117 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		685ACC501EAEEF1F00BB2117 /* UIView+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+GYExtension.swift"; path = "../Foundation+GYExtension/UIView+GYExtension.swift"; sourceTree = "<group>"; };
+		685ACC531EAF12BD00BB2117 /* SubmitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitViewController.swift; sourceTree = "<group>"; };
+		685ACC551EAF13E200BB2117 /* GYBaseBackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBaseBackViewController.swift; sourceTree = "<group>"; };
+		685ACC571EAF1F8900BB2117 /* UIBarButtonItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extension.swift"; sourceTree = "<group>"; };
+		685ACC5A1EAF218600BB2117 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		685ACC5D1EAF404F00BB2117 /* GYTimerButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYTimerButton.swift; sourceTree = "<group>"; };
+		685ACC5F1EAF4AC600BB2117 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6860BAC51EB972120037AAE4 /* LeftListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftListViewController.swift; sourceTree = "<group>"; };
+		6860BAC61EB972120037AAE4 /* LeftListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftListViewController.xib; sourceTree = "<group>"; };
+		6860BAC91EB9B4BF0037AAE4 /* RequestVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestVc.swift; sourceTree = "<group>"; };
+		6860BACB1EB9B4FD0037AAE4 /* ReviewVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewVc.swift; sourceTree = "<group>"; };
+		6860BACD1EB9B52A0037AAE4 /* ContractVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractVc.swift; sourceTree = "<group>"; };
+		6860BACF1EB9B54F0037AAE4 /* LoansVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoansVc.swift; sourceTree = "<group>"; };
+		6860BAD11EB9BAD50037AAE4 /* RepaymentVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepaymentVc.swift; sourceTree = "<group>"; };
+		686BAC911EB82F5200603049 /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		686BAC931EB85BA500603049 /* ConfirmBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmBtnView.swift; sourceTree = "<group>"; };
+		686BAC961EB866D700603049 /* FinancingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinancingViewController.swift; sourceTree = "<group>"; };
+		687146421EB062A8001F6F6F /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		687146441EB07C5A001F6F6F /* LoginNoneInfoVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginNoneInfoVc.swift; sourceTree = "<group>"; };
+		687146451EB07C5A001F6F6F /* LoginNoneInfoVc.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginNoneInfoVc.xib; sourceTree = "<group>"; };
+		687146501EB09FEC001F6F6F /* StateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateView.swift; sourceTree = "<group>"; };
+		687146521EB09FFD001F6F6F /* StateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StateView.xib; sourceTree = "<group>"; };
+		687146541EB0B451001F6F6F /* StateSecondView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateSecondView.swift; sourceTree = "<group>"; };
+		687146561EB0B465001F6F6F /* StateSecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StateSecondView.xib; sourceTree = "<group>"; };
+		6887F6EC1EADF84800057021 /* GYNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNavigationController.swift; sourceTree = "<group>"; };
+		6887F6F11EADFC7900057021 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6887F6F51EADFCB500057021 /* HomeBootomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBootomView.swift; sourceTree = "<group>"; };
+		6887F6F71EADFD4B00057021 /* GYBanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBanner.swift; sourceTree = "<group>"; };
+		6887F6F91EAE000A00057021 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		6887F6FA1EAE000A00057021 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		6887F6FB1EAE000A00057021 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		6887F6FC1EAE000A00057021 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		6887F6FD1EAE000A00057021 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		6887F6FE1EAE000A00057021 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		6887F7061EAE03E000057021 /* GYConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYConst.swift; sourceTree = "<group>"; };
+		688AE0271EC03DD3004DA121 /* FilesViewControllerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewControllerSpec.swift; sourceTree = "<group>"; };
+		688AE02D1EC06835004DA121 /* LoginVcSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVcSpec.swift; sourceTree = "<group>"; };
+		68FAE9FE1EB332E900B2058D /* GYIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYIndicatorView.swift; sourceTree = "<group>"; };
+		68FAEA001EB33F6D00B2058D /* GYBounceSportAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBounceSportAnimation.swift; sourceTree = "<group>"; };
+		7FAB73ED7A1F3F4FE487CEF5 /* Pods-CrawfishBanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking.release.xcconfig"; sourceTree = "<group>"; };
+		81D17EA8ADDA9EDA0328DC08 /* Pods-CrawfishBanking-Tests-CrawfishBankingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-Tests-CrawfishBankingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-Tests-CrawfishBankingUITests/Pods-CrawfishBanking-Tests-CrawfishBankingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81FD00315E5490A04308120A /* Pods-CrawfishBanking-Tests-CrawfishBankingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-Tests-CrawfishBankingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-Tests-CrawfishBankingTests/Pods-CrawfishBanking-Tests-CrawfishBankingTests.release.xcconfig"; sourceTree = "<group>"; };
+		830DBDBE1DB528400CF1BD3F /* Pods-CrawfishBanking-CrawfishBankingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-CrawfishBankingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingUITests/Pods-CrawfishBanking-CrawfishBankingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		90F853E6A76B9A21FC0BB88D /* Pods_CrawfishBanking_CrawfishBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking_CrawfishBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B1DCD880E6D4EB508BBBD71 /* Pods-CrawfishBanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking.debug.xcconfig"; sourceTree = "<group>"; };
+		A2C47D954458E6F84656CF4D /* Pods_CrawfishBanking_Tests_CrawfishBankingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking_Tests_CrawfishBankingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E565B81EA4B6D300EF3C26 /* CrawfishBanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrawfishBanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E565BB1EA4B6D300EF3C26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7E565C01EA4B6D300EF3C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7E565C21EA4B6D400EF3C26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7E565C51EA4B6D400EF3C26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7E565C71EA4B6D400EF3C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E565CC1EA4B6D400EF3C26 /* CrawfishBankingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrawfishBankingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E565D01EA4B6D400EF3C26 /* CrawfishBankingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawfishBankingTests.swift; sourceTree = "<group>"; };
+		B7E565D21EA4B6D400EF3C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E565D71EA4B6D400EF3C26 /* CrawfishBankingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrawfishBankingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7E565DB1EA4B6D400EF3C26 /* CrawfishBankingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrawfishBankingUITests.swift; sourceTree = "<group>"; };
+		B7E565DD1EA4B6D400EF3C26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7E565EE1EA4BAB700EF3C26 /* GYServiceApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYServiceApi.swift; sourceTree = "<group>"; };
+		B7E565EF1EA4BAB700EF3C26 /* GYRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYRouter.swift; sourceTree = "<group>"; };
+		B7E565F31EA4BB5100EF3C26 /* GYBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYBaseViewController.swift; sourceTree = "<group>"; };
+		B7EEABB11EA614AC0058BBFF /* GYNetWorking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYNetWorking.swift; sourceTree = "<group>"; };
+		B7EEABB31EA614B50058BBFF /* GYErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GYErrorCode.swift; sourceTree = "<group>"; };
+		B7EEABB71EA765360058BBFF /* UIButton+GYExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+GYExtension.swift"; sourceTree = "<group>"; };
+		D8783CA4F70867BFE71BE4E8 /* Pods_CrawfishBanking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrawfishBanking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2C2963CA937C2C7C004725C /* Pods-CrawfishBanking-CrawfishBankingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrawfishBanking-CrawfishBankingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingTests/Pods-CrawfishBanking-CrawfishBankingTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7E565B51EA4B6D300EF3C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCF43A5E6C87B7A065DA525 /* Pods_CrawfishBanking.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E565C91EA4B6D400EF3C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				365030211E07D1E950BB55E7 /* Pods_CrawfishBanking_Tests_CrawfishBankingTests.framework in Frameworks */,
+				1B1E410849879F7A385EC054 /* Pods_CrawfishBanking_CrawfishBankingTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E565D41EA4B6D400EF3C26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9155764285B5511B32B5F3 /* Pods_CrawfishBanking_Tests_CrawfishBankingUITests.framework in Frameworks */,
+				F13DCB09527E6E913C1BD586 /* Pods_CrawfishBanking_CrawfishBankingUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD73BD42FA0B2B866F650AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B1DCD880E6D4EB508BBBD71 /* Pods-CrawfishBanking.debug.xcconfig */,
+				7FAB73ED7A1F3F4FE487CEF5 /* Pods-CrawfishBanking.release.xcconfig */,
+				116D25F176DDA27B88DC1649 /* Pods-CrawfishBanking-Tests-CrawfishBankingTests.debug.xcconfig */,
+				81FD00315E5490A04308120A /* Pods-CrawfishBanking-Tests-CrawfishBankingTests.release.xcconfig */,
+				81D17EA8ADDA9EDA0328DC08 /* Pods-CrawfishBanking-Tests-CrawfishBankingUITests.debug.xcconfig */,
+				448C1D08039B73AD24643406 /* Pods-CrawfishBanking-Tests-CrawfishBankingUITests.release.xcconfig */,
+				E2C2963CA937C2C7C004725C /* Pods-CrawfishBanking-CrawfishBankingTests.debug.xcconfig */,
+				1DF619519CBE1B924A0AB724 /* Pods-CrawfishBanking-CrawfishBankingTests.release.xcconfig */,
+				4B3F6D674F4EF21595FAAEFC /* Pods-CrawfishBanking-CrawfishBankingUITests.debug.xcconfig */,
+				830DBDBE1DB528400CF1BD3F /* Pods-CrawfishBanking-CrawfishBankingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		681C7B981EBB0591005D8ACD /* PageView */ = {
+			isa = PBXGroup;
+			children = (
+				681C7B991EBB05A7005D8ACD /* GYPageTitleView.swift */,
+				681C7B9B1EBB05C0005D8ACD /* GYPageContainerView.swift */,
+			);
+			path = PageView;
+			sourceTree = "<group>";
+		};
+		6821CCFE1EB190EF00E160D6 /* CustomerInfo */ = {
+			isa = PBXGroup;
+			children = (
+				6821CCFF1EB1911500E160D6 /* Model */,
+				6821CD001EB1911500E160D6 /* View */,
+				6821CD011EB1911500E160D6 /* ViewModel */,
+				6821CD021EB1914100E160D6 /* FillCustomerViewController.swift */,
+				686BAC911EB82F5200603049 /* ConfirmViewController.swift */,
+			);
+			path = CustomerInfo;
+			sourceTree = "<group>";
+		};
+		6821CCFF1EB1911500E160D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6821CD081EB1BC6D00E160D6 /* FillCustomerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6821CD001EB1911500E160D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6821CD041EB1B41300E160D6 /* FillCustomerCell.swift */,
+				6821CD051EB1B41300E160D6 /* FillCustomerCell.xib */,
+				6821CD0A1EB1C3F400E160D6 /* FillHeadView.swift */,
+				6821CD0C1EB1C40F00E160D6 /* FillHeadView.xib */,
+				686BAC931EB85BA500603049 /* ConfirmBtnView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6821CD011EB1911500E160D6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6821CD0E1EB1D78600E160D6 /* pop */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		685ACC4D1EAEE97900BB2117 /* Foundation+GYExtension */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC4E1EAEE99900BB2117 /* UIColor+Extension.swift */,
+			);
+			path = "Foundation+GYExtension";
+			sourceTree = "<group>";
+		};
+		685ACC521EAF129B00BB2117 /* Submit */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC531EAF12BD00BB2117 /* SubmitViewController.swift */,
+			);
+			path = Submit;
+			sourceTree = "<group>";
+		};
+		685ACC591EAF216E00BB2117 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC5C1EAF403900BB2117 /* View */,
+				685ACC5A1EAF218600BB2117 /* LoginViewController.swift */,
+				687146441EB07C5A001F6F6F /* LoginNoneInfoVc.swift */,
+				687146451EB07C5A001F6F6F /* LoginNoneInfoVc.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		685ACC5C1EAF403900BB2117 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC5D1EAF404F00BB2117 /* GYTimerButton.swift */,
+				685ACC5F1EAF4AC600BB2117 /* LoginView.swift */,
+				687146501EB09FEC001F6F6F /* StateView.swift */,
+				687146521EB09FFD001F6F6F /* StateView.xib */,
+				687146541EB0B451001F6F6F /* StateSecondView.swift */,
+				687146561EB0B465001F6F6F /* StateSecondView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6860BAD31EB9BF210037AAE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6860BAD41EB9BF210037AAE4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6860BAD51EB9BF210037AAE4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		686BAC951EB865E400603049 /* FinancingRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6860BAD31EB9BF210037AAE4 /* Model */,
+				6860BAD41EB9BF210037AAE4 /* View */,
+				6860BAD51EB9BF210037AAE4 /* ViewModel */,
+				686BAC961EB866D700603049 /* FinancingViewController.swift */,
+				6860BAC51EB972120037AAE4 /* LeftListViewController.swift */,
+				6860BAC61EB972120037AAE4 /* LeftListViewController.xib */,
+				6860BAC91EB9B4BF0037AAE4 /* RequestVc.swift */,
+				6860BACB1EB9B4FD0037AAE4 /* ReviewVc.swift */,
+				6860BACD1EB9B52A0037AAE4 /* ContractVc.swift */,
+				6860BACF1EB9B54F0037AAE4 /* LoansVc.swift */,
+				6860BAD11EB9BAD50037AAE4 /* RepaymentVc.swift */,
+				681C7B9D1EBB2713005D8ACD /* FilesViewController.swift */,
+			);
+			path = FinancingRequest;
+			sourceTree = "<group>";
+		};
+		6887F6F01EADFC5600057021 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC521EAF129B00BB2117 /* Submit */,
+				6887F6F11EADFC7900057021 /* HomeViewController.swift */,
+				6887F6F31EADFCA200057021 /* Model */,
+				6887F6F41EADFCA200057021 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6887F6F31EADFCA200057021 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6887F6F41EADFCA200057021 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6887F6F91EAE000A00057021 /* 1.jpg */,
+				6887F6FA1EAE000A00057021 /* 2.jpg */,
+				6887F6FB1EAE000A00057021 /* 3.jpg */,
+				6887F6FC1EAE000A00057021 /* 4.jpg */,
+				6887F6FD1EAE000A00057021 /* 5.jpg */,
+				6887F6FE1EAE000A00057021 /* 6.jpg */,
+				6887F6F71EADFD4B00057021 /* GYBanner.swift */,
+				6887F6F51EADFCB500057021 /* HomeBootomView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6887F7051EAE01EF00057021 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6887F7061EAE03E000057021 /* GYConst.swift */,
+				687146421EB062A8001F6F6F /* Tools.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		68FAE9FD1EB332D200B2058D /* IndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				68FAE9FE1EB332E900B2058D /* GYIndicatorView.swift */,
+				68FAEA001EB33F6D00B2058D /* GYBounceSportAnimation.swift */,
+			);
+			path = IndicatorView;
+			sourceTree = "<group>";
+		};
+		74572B909579665A974F9D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8783CA4F70867BFE71BE4E8 /* Pods_CrawfishBanking.framework */,
+				5EEE78117CE026E3A47F81C2 /* Pods_CrawfishBanking_Tests_CrawfishBankingTests.framework */,
+				A2C47D954458E6F84656CF4D /* Pods_CrawfishBanking_Tests_CrawfishBankingUITests.framework */,
+				2DD15DC6DE81D70F341954B7 /* Pods_CrawfishBanking_CrawfishBankingTests.framework */,
+				90F853E6A76B9A21FC0BB88D /* Pods_CrawfishBanking_CrawfishBankingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7E565AF1EA4B6D300EF3C26 = {
+			isa = PBXGroup;
+			children = (
+				B7E565BA1EA4B6D300EF3C26 /* CrawfishBanking */,
+				B7E565CF1EA4B6D400EF3C26 /* CrawfishBankingTests */,
+				B7E565DA1EA4B6D400EF3C26 /* CrawfishBankingUITests */,
+				B7E565B91EA4B6D300EF3C26 /* Products */,
+				2AD73BD42FA0B2B866F650AE /* Pods */,
+				74572B909579665A974F9D8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7E565B91EA4B6D300EF3C26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7E565B81EA4B6D300EF3C26 /* CrawfishBanking.app */,
+				B7E565CC1EA4B6D400EF3C26 /* CrawfishBankingTests.xctest */,
+				B7E565D71EA4B6D400EF3C26 /* CrawfishBankingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7E565BA1EA4B6D300EF3C26 /* CrawfishBanking */ = {
+			isa = PBXGroup;
+			children = (
+				B7E565BB1EA4B6D300EF3C26 /* AppDelegate.swift */,
+				B7E565E91EA4BA8000EF3C26 /* Classes */,
+				B7E565EA1EA4BA8000EF3C26 /* Extension */,
+				B7E565EB1EA4BA8000EF3C26 /* Helpers */,
+				B7E565BF1EA4B6D300EF3C26 /* Main.storyboard */,
+				B7E565C21EA4B6D400EF3C26 /* Assets.xcassets */,
+				B7E565C41EA4B6D400EF3C26 /* LaunchScreen.storyboard */,
+				B7E565C71EA4B6D400EF3C26 /* Info.plist */,
+			);
+			path = CrawfishBanking;
+			sourceTree = "<group>";
+		};
+		B7E565CF1EA4B6D400EF3C26 /* CrawfishBankingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E565D01EA4B6D400EF3C26 /* CrawfishBankingTests.swift */,
+				688AE0271EC03DD3004DA121 /* FilesViewControllerSpec.swift */,
+				B7E565D21EA4B6D400EF3C26 /* Info.plist */,
+			);
+			path = CrawfishBankingTests;
+			sourceTree = "<group>";
+		};
+		B7E565DA1EA4B6D400EF3C26 /* CrawfishBankingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7E565DB1EA4B6D400EF3C26 /* CrawfishBankingUITests.swift */,
+				688AE02D1EC06835004DA121 /* LoginVcSpec.swift */,
+				B7E565DD1EA4B6D400EF3C26 /* Info.plist */,
+			);
+			path = CrawfishBankingUITests;
+			sourceTree = "<group>";
+		};
+		B7E565E91EA4BA8000EF3C26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				686BAC951EB865E400603049 /* FinancingRequest */,
+				6821CCFE1EB190EF00E160D6 /* CustomerInfo */,
+				685ACC591EAF216E00BB2117 /* Login */,
+				6887F6F01EADFC5600057021 /* Home */,
+				B7E565F21EA4BB3300EF3C26 /* Base */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B7E565EA1EA4BA8000EF3C26 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC4D1EAEE97900BB2117 /* Foundation+GYExtension */,
+				B7EEABB61EA7652D0058BBFF /* UIView+GYExtension */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B7E565EB1EA4BA8000EF3C26 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				681C7B981EBB0591005D8ACD /* PageView */,
+				68FAE9FD1EB332D200B2058D /* IndicatorView */,
+				6821CD0E1EB1D78600E160D6 /* pop */,
+				6887F7051EAE01EF00057021 /* Tools */,
+				B7E565EC1EA4BA8000EF3C26 /* NetWorkManager */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B7E565EC1EA4BA8000EF3C26 /* NetWorkManager */ = {
+			isa = PBXGroup;
+			children = (
+				B7EEABB31EA614B50058BBFF /* GYErrorCode.swift */,
+				B7EEABB11EA614AC0058BBFF /* GYNetWorking.swift */,
+				B7E565EE1EA4BAB700EF3C26 /* GYServiceApi.swift */,
+				B7E565EF1EA4BAB700EF3C26 /* GYRouter.swift */,
+			);
+			path = NetWorkManager;
+			sourceTree = "<group>";
+		};
+		B7E565F21EA4BB3300EF3C26 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B7E565F31EA4BB5100EF3C26 /* GYBaseViewController.swift */,
+				6887F6EC1EADF84800057021 /* GYNavigationController.swift */,
+				685ACC551EAF13E200BB2117 /* GYBaseBackViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B7EEABB61EA7652D0058BBFF /* UIView+GYExtension */ = {
+			isa = PBXGroup;
+			children = (
+				685ACC501EAEEF1F00BB2117 /* UIView+GYExtension.swift */,
+				B7EEABB71EA765360058BBFF /* UIButton+GYExtension.swift */,
+				685ACC571EAF1F8900BB2117 /* UIBarButtonItem+Extension.swift */,
+			);
+			path = "UIView+GYExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7E565B71EA4B6D300EF3C26 /* CrawfishBanking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E565E01EA4B6D400EF3C26 /* Build configuration list for PBXNativeTarget "CrawfishBanking" */;
+			buildPhases = (
+				5F40595D2D8940858B26BC0F /* [CP] Check Pods Manifest.lock */,
+				B7E565B41EA4B6D300EF3C26 /* Sources */,
+				B7E565B51EA4B6D300EF3C26 /* Frameworks */,
+				B7E565B61EA4B6D300EF3C26 /* Resources */,
+				8A5FBF455D001BE6B7A75DE7 /* [CP] Embed Pods Frameworks */,
+				96CBABCE1814F592B09BFE71 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrawfishBanking;
+			productName = CrawfishBanking;
+			productReference = B7E565B81EA4B6D300EF3C26 /* CrawfishBanking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7E565CB1EA4B6D400EF3C26 /* CrawfishBankingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E565E31EA4B6D400EF3C26 /* Build configuration list for PBXNativeTarget "CrawfishBankingTests" */;
+			buildPhases = (
+				FEE1A1F3EE1BAF58EB40200A /* [CP] Check Pods Manifest.lock */,
+				B7E565C81EA4B6D400EF3C26 /* Sources */,
+				B7E565C91EA4B6D400EF3C26 /* Frameworks */,
+				B7E565CA1EA4B6D400EF3C26 /* Resources */,
+				619615E0565D83B8CCE9C177 /* [CP] Embed Pods Frameworks */,
+				D95EEAA8FE2D03A033E97E3B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E565CE1EA4B6D400EF3C26 /* PBXTargetDependency */,
+			);
+			name = CrawfishBankingTests;
+			productName = CrawfishBankingTests;
+			productReference = B7E565CC1EA4B6D400EF3C26 /* CrawfishBankingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7E565D61EA4B6D400EF3C26 /* CrawfishBankingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E565E61EA4B6D400EF3C26 /* Build configuration list for PBXNativeTarget "CrawfishBankingUITests" */;
+			buildPhases = (
+				0A6FE3940B1D2F7CA80783CA /* [CP] Check Pods Manifest.lock */,
+				B7E565D31EA4B6D400EF3C26 /* Sources */,
+				B7E565D41EA4B6D400EF3C26 /* Frameworks */,
+				B7E565D51EA4B6D400EF3C26 /* Resources */,
+				C87E70D74C7B57FC0FF2A664 /* [CP] Embed Pods Frameworks */,
+				99151FC7AB2E363B04E2ECFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7E565D91EA4B6D400EF3C26 /* PBXTargetDependency */,
+			);
+			name = CrawfishBankingUITests;
+			productName = CrawfishBankingUITests;
+			productReference = B7E565D71EA4B6D400EF3C26 /* CrawfishBankingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7E565B01EA4B6D300EF3C26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = CrawfishBanking;
+				TargetAttributes = {
+					B7E565B71EA4B6D300EF3C26 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+					};
+					B7E565CB1EA4B6D400EF3C26 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7E565B71EA4B6D300EF3C26;
+					};
+					B7E565D61EA4B6D400EF3C26 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UZZG6NM74T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B7E565B71EA4B6D300EF3C26;
+					};
+				};
+			};
+			buildConfigurationList = B7E565B31EA4B6D300EF3C26 /* Build configuration list for PBXProject "CrawfishBanking" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7E565AF1EA4B6D300EF3C26;
+			productRefGroup = B7E565B91EA4B6D300EF3C26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7E565B71EA4B6D300EF3C26 /* CrawfishBanking */,
+				B7E565CB1EA4B6D400EF3C26 /* CrawfishBankingTests */,
+				B7E565D61EA4B6D400EF3C26 /* CrawfishBankingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7E565B61EA4B6D300EF3C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6887F7041EAE000A00057021 /* 6.jpg in Resources */,
+				B7E565C61EA4B6D400EF3C26 /* LaunchScreen.storyboard in Resources */,
+				6887F7031EAE000A00057021 /* 5.jpg in Resources */,
+				6821CD0D1EB1C40F00E160D6 /* FillHeadView.xib in Resources */,
+				6821CD071EB1B41300E160D6 /* FillCustomerCell.xib in Resources */,
+				6887F7021EAE000A00057021 /* 4.jpg in Resources */,
+				6887F6FF1EAE000A00057021 /* 1.jpg in Resources */,
+				6860BAC81EB972120037AAE4 /* LeftListViewController.xib in Resources */,
+				687146531EB09FFD001F6F6F /* StateView.xib in Resources */,
+				6887F7001EAE000A00057021 /* 2.jpg in Resources */,
+				6887F7011EAE000A00057021 /* 3.jpg in Resources */,
+				687146571EB0B465001F6F6F /* StateSecondView.xib in Resources */,
+				B7E565C31EA4B6D400EF3C26 /* Assets.xcassets in Resources */,
+				687146471EB07C5A001F6F6F /* LoginNoneInfoVc.xib in Resources */,
+				B7E565C11EA4B6D300EF3C26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E565CA1EA4B6D400EF3C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E565D51EA4B6D400EF3C26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A6FE3940B1D2F7CA80783CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F40595D2D8940858B26BC0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		619615E0565D83B8CCE9C177 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingTests/Pods-CrawfishBanking-CrawfishBankingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A5FBF455D001BE6B7A75DE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CBABCE1814F592B09BFE71 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking/Pods-CrawfishBanking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99151FC7AB2E363B04E2ECFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingUITests/Pods-CrawfishBanking-CrawfishBankingUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C87E70D74C7B57FC0FF2A664 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingUITests/Pods-CrawfishBanking-CrawfishBankingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95EEAA8FE2D03A033E97E3B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrawfishBanking-CrawfishBankingTests/Pods-CrawfishBanking-CrawfishBankingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE1A1F3EE1BAF58EB40200A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7E565B41EA4B6D300EF3C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6860BAD01EB9B54F0037AAE4 /* LoansVc.swift in Sources */,
+				6821CD061EB1B41300E160D6 /* FillCustomerCell.swift in Sources */,
+				6860BAD21EB9BAD50037AAE4 /* RepaymentVc.swift in Sources */,
+				685ACC5B1EAF218600BB2117 /* LoginViewController.swift in Sources */,
+				6887F6ED1EADF84800057021 /* GYNavigationController.swift in Sources */,
+				68FAEA011EB33F6D00B2058D /* GYBounceSportAnimation.swift in Sources */,
+				685ACC541EAF12BD00BB2117 /* SubmitViewController.swift in Sources */,
+				6887F6F61EADFCB500057021 /* HomeBootomView.swift in Sources */,
+				686BAC921EB82F5200603049 /* ConfirmViewController.swift in Sources */,
+				6821CD091EB1BC6D00E160D6 /* FillCustomerModel.swift in Sources */,
+				681C7B9A1EBB05A7005D8ACD /* GYPageTitleView.swift in Sources */,
+				B7EEABB21EA614AC0058BBFF /* GYNetWorking.swift in Sources */,
+				681C7B9C1EBB05C0005D8ACD /* GYPageContainerView.swift in Sources */,
+				685ACC561EAF13E200BB2117 /* GYBaseBackViewController.swift in Sources */,
+				B7EEABB41EA614B50058BBFF /* GYErrorCode.swift in Sources */,
+				6860BACA1EB9B4BF0037AAE4 /* RequestVc.swift in Sources */,
+				681C7B9E1EBB2713005D8ACD /* FilesViewController.swift in Sources */,
+				B7E565F01EA4BAB700EF3C26 /* GYServiceApi.swift in Sources */,
+				687146551EB0B451001F6F6F /* StateSecondView.swift in Sources */,
+				B7E565F11EA4BAB700EF3C26 /* GYRouter.swift in Sources */,
+				6887F6F21EADFC7900057021 /* HomeViewController.swift in Sources */,
+				B7EEABB81EA765360058BBFF /* UIButton+GYExtension.swift in Sources */,
+				B7E565BC1EA4B6D300EF3C26 /* AppDelegate.swift in Sources */,
+				687146461EB07C5A001F6F6F /* LoginNoneInfoVc.swift in Sources */,
+				6887F6F81EADFD4B00057021 /* GYBanner.swift in Sources */,
+				68FAE9FF1EB332E900B2058D /* GYIndicatorView.swift in Sources */,
+				6821CD0B1EB1C3F400E160D6 /* FillHeadView.swift in Sources */,
+				685ACC511EAEEF1F00BB2117 /* UIView+GYExtension.swift in Sources */,
+				685ACC4F1EAEE99900BB2117 /* UIColor+Extension.swift in Sources */,
+				6860BAC71EB972120037AAE4 /* LeftListViewController.swift in Sources */,
+				B7E565F41EA4BB5100EF3C26 /* GYBaseViewController.swift in Sources */,
+				6887F7071EAE03E000057021 /* GYConst.swift in Sources */,
+				685ACC5E1EAF404F00BB2117 /* GYTimerButton.swift in Sources */,
+				6860BACC1EB9B4FD0037AAE4 /* ReviewVc.swift in Sources */,
+				687146511EB09FEC001F6F6F /* StateView.swift in Sources */,
+				687146431EB062A8001F6F6F /* Tools.swift in Sources */,
+				686BAC941EB85BA500603049 /* ConfirmBtnView.swift in Sources */,
+				685ACC601EAF4AC600BB2117 /* LoginView.swift in Sources */,
+				6821CD031EB1914100E160D6 /* FillCustomerViewController.swift in Sources */,
+				6860BACE1EB9B52A0037AAE4 /* ContractVc.swift in Sources */,
+				686BAC971EB866D700603049 /* FinancingViewController.swift in Sources */,
+				685ACC581EAF1F8900BB2117 /* UIBarButtonItem+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E565C81EA4B6D400EF3C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E565D11EA4B6D400EF3C26 /* CrawfishBankingTests.swift in Sources */,
+				688AE0281EC03DD3004DA121 /* FilesViewControllerSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E565D31EA4B6D400EF3C26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E565DC1EA4B6D400EF3C26 /* CrawfishBankingUITests.swift in Sources */,
+				688AE02E1EC06835004DA121 /* LoginVcSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7E565CE1EA4B6D400EF3C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E565B71EA4B6D300EF3C26 /* CrawfishBanking */;
+			targetProxy = B7E565CD1EA4B6D400EF3C26 /* PBXContainerItemProxy */;
+		};
+		B7E565D91EA4B6D400EF3C26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7E565B71EA4B6D300EF3C26 /* CrawfishBanking */;
+			targetProxy = B7E565D81EA4B6D400EF3C26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7E565BF1EA4B6D300EF3C26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E565C01EA4B6D300EF3C26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7E565C41EA4B6D400EF3C26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7E565C51EA4B6D400EF3C26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7E565DE1EA4B6D400EF3C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7E565DF1EA4B6D400EF3C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7E565E11EA4B6D400EF3C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B1DCD880E6D4EB508BBBD71 /* Pods-CrawfishBanking.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = CrawfishBanking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBanking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B7E565E21EA4B6D400EF3C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FAB73ED7A1F3F4FE487CEF5 /* Pods-CrawfishBanking.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = CrawfishBanking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBanking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B7E565E41EA4B6D400EF3C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2C2963CA937C2C7C004725C /* Pods-CrawfishBanking-CrawfishBankingTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = CrawfishBankingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBankingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		B7E565E51EA4B6D400EF3C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DF619519CBE1B924A0AB724 /* Pods-CrawfishBanking-CrawfishBankingTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				INFOPLIST_FILE = CrawfishBankingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBankingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+		B7E565E71EA4B6D400EF3C26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3F6D674F4EF21595FAAEFC /* Pods-CrawfishBanking-CrawfishBankingUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = CrawfishBankingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"KMNavigationBarTransition\"",
+					"-framework",
+					"\"Nimble\"",
+					"-framework",
+					"\"PopupDialog\"",
+					"-framework",
+					"\"Quick\"",
+					"-framework",
+					"\"SCLAlertView\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"WHC_KeyboardManager\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBankingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrawfishBanking;
+			};
+			name = Debug;
+		};
+		B7E565E81EA4B6D400EF3C26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830DBDBE1DB528400CF1BD3F /* Pods-CrawfishBanking-CrawfishBankingUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				DEVELOPMENT_TEAM = UZZG6NM74T;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = CrawfishBankingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"DropDown\"",
+					"-framework",
+					"\"KMNavigationBarTransition\"",
+					"-framework",
+					"\"Nimble\"",
+					"-framework",
+					"\"PopupDialog\"",
+					"-framework",
+					"\"Quick\"",
+					"-framework",
+					"\"SCLAlertView\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"WHC_KeyboardManager\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ozner.CrawfishBankingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CrawfishBanking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7E565B31EA4B6D300EF3C26 /* Build configuration list for PBXProject "CrawfishBanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E565DE1EA4B6D400EF3C26 /* Debug */,
+				B7E565DF1EA4B6D400EF3C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E565E01EA4B6D400EF3C26 /* Build configuration list for PBXNativeTarget "CrawfishBanking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E565E11EA4B6D400EF3C26 /* Debug */,
+				B7E565E21EA4B6D400EF3C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E565E31EA4B6D400EF3C26 /* Build configuration list for PBXNativeTarget "CrawfishBankingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E565E41EA4B6D400EF3C26 /* Debug */,
+				B7E565E51EA4B6D400EF3C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E565E61EA4B6D400EF3C26 /* Build configuration list for PBXNativeTarget "CrawfishBankingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7E565E71EA4B6D400EF3C26 /* Debug */,
+				B7E565E81EA4B6D400EF3C26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7E565B01EA4B6D300EF3C26 /* Project object */;
+}

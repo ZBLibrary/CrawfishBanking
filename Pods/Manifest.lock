@@ -1,0 +1,36 @@
+PODS:
+  - Alamofire (4.4.0)
+  - DropDown (2)
+  - KMNavigationBarTransition (1.0.0)
+  - Nimble (7.0.0)
+  - PopupDialog (0.5.4)
+  - Quick (1.1.0)
+  - SCLAlertView (0.7.0)
+  - SnapKit (3.2.0)
+  - WHC_KeyboardManager (1.1.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4.0)
+  - DropDown
+  - KMNavigationBarTransition (~> 1.0.0)
+  - Nimble
+  - PopupDialog (~> 0.5.4)
+  - Quick
+  - SCLAlertView (~> 0.7.0)
+  - SnapKit (~> 3.2.0)
+  - WHC_KeyboardManager
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  KMNavigationBarTransition: b3fb8337f7a1e4542add07fd6c45fb9980794d59
+  Nimble: 874982b605d4d752fcac6be695d13c502de84b1b
+  PopupDialog: 75cf955693590b0cb2fdde00223fb65d99c57247
+  Quick: dafc587e21eed9f4cab3249b9f9015b0b7a7f71d
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  WHC_KeyboardManager: 6d66d5f23814da928febdb1b1afc2670115d1c20
+
+PODFILE CHECKSUM: 79e4153250045f0a783648abe7db65f0e053c627
+
+COCOAPODS: 1.2.1

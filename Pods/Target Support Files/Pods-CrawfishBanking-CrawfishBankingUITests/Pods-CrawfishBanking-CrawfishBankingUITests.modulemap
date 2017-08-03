@@ -1,0 +1,6 @@
+framework module Pods_CrawfishBanking_CrawfishBankingUITests {
+  umbrella header "Pods-CrawfishBanking-CrawfishBankingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
